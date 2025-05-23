@@ -129,8 +129,11 @@ docker run -p 8081:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins
    * Click **Add Maven**
    * Name: `Maven 3.8.6`
    * Install automatically (or use a local path)
-3. Do the same for **JDK** if needed
-
+3. Under **JDK**
+   
+   * Add JDK (e.g., name it JDK 11)
+   * Check ✅ "Install automatically"
+   * Choose "AdoptOpenJDK" or "Temurin" (based on Jenkins version)
 ---
 
 ### 4️⃣ Create the Jenkins Freestyle Project
